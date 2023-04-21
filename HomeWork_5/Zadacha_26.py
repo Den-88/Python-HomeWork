@@ -10,6 +10,6 @@ def st(a, b):
         return a
     return a * st(a, b - 1)
 
-a = int(input('Введите числ A: '))
-b = int(input('Введите числ B: '))
+a = int(input('Введите число A: '))
+b = int(input('Введите число B: '))
 print(st(a, b))
